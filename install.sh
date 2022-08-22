@@ -1,7 +1,7 @@
 #!/bin/bash
-Version="4.7.6"
+VERSION="4.7.6"
 SOURCE_DIR="https://raw.githubusercontent.com/BK201c/embydd/master/patch"
-echo "For v-$Version"
+echo "For v-${VERSION}"
 
 echo "----------Start crack web core ------------------"
 rm -f /system/Emby.Web.dll
