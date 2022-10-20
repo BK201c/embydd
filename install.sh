@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION="4.7.6"
+VERSION="4.7.8"
 SOURCE_DIR="https://raw.githubusercontent.com/BK201c/embydd/master/patch"
 echo "For v-${VERSION}"
 
