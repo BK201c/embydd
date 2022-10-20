@@ -2,18 +2,25 @@
 
 ## Notic
 
-Only for docker container created by dockerhub image:emby/embyserver
+Only for docker container created by dockerhub.io:emby/embyserver
 
 ## Quick Start
 
-### 1. Enter docker container
+### 1. Run bash
+
+#### backup
 
 ```bash
-sudo docker exec -it emby /bin/sh
+# enter host
+wget --no-check-certificate -q -O backup.sh "https://raw.githubusercontent.com/BK201c/embydd/master/backup.sh" && sh backup.sh
 ```
 
-### 2. Run bash
+#### creake
 
 ```bash
+# enter docker container
+sudo docker exec -it emby /bin/sh
+
+# run
 wget --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/BK201c/embydd/master/install.sh" && sh install.sh
 ```
